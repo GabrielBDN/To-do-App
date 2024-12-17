@@ -1,0 +1,158 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #49494d;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+
+  input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.5);
+    transform: scale(1.02);
+  }
+  
+
+  .todo-list {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .todo-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todo-item button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .todo-item button:hover {
+    background-color: #ffffff;
+  }
+  
+
+  .calendar-container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-calendar {
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #000000 !important;
+    color: white !important;
+    border-radius: 50%;
+  }
+  
+  .react-calendar__tile--active:hover {
+    background-color: #0056b3 !important;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+  }
+
+
+.task-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .date-picker {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .add-task-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-task-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
