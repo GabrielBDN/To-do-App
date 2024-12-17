@@ -31,7 +31,7 @@ const Home = ({ events, setEvents }) => {
       id: `${Date.now()}-${Math.floor(Math.random() * 1000)}`,
       title: newTask.trim(),
       start: startDate,
-      end: new Date(startDate.getTime() + 60 * 60 * 1000), // Ajoute 1h
+      end: new Date(startDate.getTime() + 60 * 60 * 1000),
     };
 
     setEvents((prevEvents) => [...prevEvents, newTaskObj]);
