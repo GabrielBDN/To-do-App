@@ -45,7 +45,7 @@ Une application web moderne pour gérer vos tâches et projets. Organisez vos ac
 
 Voici quelques captures d'écran de l'application :
 
-![Exemple de l'application](./screenshots/screenshot1.png)
+![Exemple de l'application](./ScreenShots/Screen1.png)
 
 ## Contribuer 🤝
 
